@@ -68,18 +68,23 @@ module T0;
 		run = 1;
 		#800;
 		// Change MAX while run is 1 - should NOT affect the output;
-		max_count = 15;
 		#850;
 		// At this time, the output should be 73. Reset it to zero and give it the new max by setting run to 0
+		
 		run = 0;
-		#20
-		// Count up to 15 by setting run to 1
+		#10
 		run = 1;
-		#50;
+		
+		max_count = 15;
+		#150
+		// Count up to 15 by setting run to 1
+		run = 0;
+		#200;
 		// Change max count to > 99
 		max_count = 118;
-		#500
-		run=0;
+		run = 1;
+		#900
+		
 		#20
 		run=1;
 

@@ -9,7 +9,7 @@ input run, CLK;
 output [6:0] count_out;
 
 // Wires/Registers required go here.
-wire [6:0] counter_1_output;
+wire [6:0] counter_output;
 reg [6:0] count_out;
 reg enable;
 
@@ -17,7 +17,7 @@ reg enable;
 count_7 counter_1(.run(enable),
 		  .reset(run),
 		  .CLK(CLK),
-		  .count_out(counter_1_output));
+		  .count_out(counter_output));
 
 
 // TODO: Write logic for Counter control
@@ -35,16 +35,16 @@ end
 			enable = 1;
 			end
 			
-			if (counter_1_output == 100) 
+			if (counter_output >= 100) 
 				begin 
 				enable = 0;	
 				end     
 		
-			else if (counter_1_output <= max_count)
+			else if (counter_output <= max_count)
 				begin 
-				count_out = counter_1_output;
+				count_out = counter_output;
 				
-				if(counter_1_output == max_count)
+				if(counter_output == max_count)
 					enable = 0;	 
 	end
 end
