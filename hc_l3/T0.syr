@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.21 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Reading design: T0.prj
 
@@ -105,15 +105,15 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "E:\Repos\csdlabs\counter.v" into library work
+Analyzing Verilog file "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\counter.v" into library work
 Parsing module <count_7>.
-Analyzing Verilog file "E:\Repos\csdlabs\prog_counter.v" into library work
+Analyzing Verilog file "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\prog_counter.v" into library work
 Parsing module <prog_count_7>.
-Analyzing Verilog file "E:\Repos\csdlabs\binary_bcd.v" into library work
+Analyzing Verilog file "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\binary_bcd.v" into library work
 Parsing module <binary_bcd_2>.
-Analyzing Verilog file "E:\Repos\csdlabs\final_bcd_counter.v" into library work
+Analyzing Verilog file "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\final_bcd_counter.v" into library work
 Parsing module <bcd_count_7>.
-Analyzing Verilog file "E:\Repos\csdlabs\T0.v" into library work
+Analyzing Verilog file "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\T0.v" into library work
 Parsing module <T0>.
 
 =========================================================================
@@ -121,35 +121,35 @@ Parsing module <T0>.
 =========================================================================
 
 Elaborating module <T0>.
-WARNING:HDLCompiler:872 - "E:\Repos\csdlabs\T0.v" Line 51: Using initial value of max_count since it is never assigned
+WARNING:HDLCompiler:872 - "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\T0.v" Line 51: Using initial value of max_count since it is never assigned
 
 Elaborating module <bcd_count_7>.
 
 Elaborating module <prog_count_7>.
 
 Elaborating module <count_7>.
-WARNING:HDLCompiler:413 - "E:\Repos\csdlabs\counter.v" Line 21: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\counter.v" Line 21: Result of 8-bit expression is truncated to fit in 7-bit target.
 
 Elaborating module <binary_bcd_2>.
-WARNING:HDLCompiler:413 - "E:\Repos\csdlabs\binary_bcd.v" Line 24: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:1127 - "E:\Repos\csdlabs\T0.v" Line 41: Assignment to digit_1 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "E:\Repos\csdlabs\T0.v" Line 42: Assignment to digit_2 ignored, since the identifier is never used
-WARNING:Xst:2972 - "E:\Repos\csdlabs\T0.v" line 37. All outputs of instance <uut> of block <bcd_count_7> are unconnected in block <T0>. Underlying logic will be removed.
+WARNING:HDLCompiler:413 - "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\binary_bcd.v" Line 24: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:1127 - "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\T0.v" Line 41: Assignment to digit_1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\T0.v" Line 42: Assignment to digit_2 ignored, since the identifier is never used
+WARNING:Xst:2972 - "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\T0.v" line 37. All outputs of instance <uut> of block <bcd_count_7> are unconnected in block <T0>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <T0>.
-    Related source file is "E:\Repos\csdlabs\T0.v".
-INFO:Xst:3210 - "E:\Repos\csdlabs\T0.v" line 37: Output port <digit_1> of the instance <uut> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "E:\Repos\csdlabs\T0.v" line 37: Output port <digit_2> of the instance <uut> is unconnected or connected to loadless signal.
+    Related source file is "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\T0.v".
+INFO:Xst:3210 - "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\T0.v" line 37: Output port <digit_1> of the instance <uut> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\T0.v" line 37: Output port <digit_2> of the instance <uut> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <T0> synthesized.
 
 Synthesizing Unit <prog_count_7>.
-    Related source file is "E:\Repos\csdlabs\prog_counter.v".
+    Related source file is "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\prog_counter.v".
     Found 1-bit register for signal <count_out<6>>.
     Found 1-bit register for signal <count_out<5>>.
     Found 1-bit register for signal <count_out<4>>.
@@ -163,7 +163,7 @@ Synthesizing Unit <prog_count_7>.
 Unit <prog_count_7> synthesized.
 
 Synthesizing Unit <count_7>.
-    Related source file is "E:\Repos\csdlabs\counter.v".
+    Related source file is "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\counter.v".
     Found 7-bit register for signal <count_out>.
     Found 7-bit adder for signal <count_out[6]_GND_4_o_add_2_OUT> created at line 21.
     Summary:
@@ -172,7 +172,7 @@ Synthesizing Unit <count_7>.
 Unit <count_7> synthesized.
 
 Synthesizing Unit <binary_bcd_2>.
-    Related source file is "E:\Repos\csdlabs\binary_bcd.v".
+    Related source file is "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\binary_bcd.v".
     Summary:
 	no macro.
 Unit <binary_bcd_2> synthesized.
@@ -298,12 +298,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.13 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.06 secs
  
 --> 
 
-Total memory usage is 263388 kilobytes
+Total memory usage is 263772 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    6 (   0 filtered)

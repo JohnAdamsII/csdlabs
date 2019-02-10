@@ -1,6 +1,9 @@
-set -tmpdir "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/xst/projnav.tmp"
-set -xsthdpdir "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn lab_board.prj
+-ofn lab_board
+-ofmt NGC
 -p xc6slx45-3-csg484
 -top lab_board
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn lab_board.prj

@@ -1,18 +1,18 @@
 Release 14.7 - xst P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/xst/projnav.tmp
+--> Parameter TMPDIR set to E:/Repos/csdlabs/hc_l3/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.20 secs
  
---> Parameter xsthdpdir set to E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/xst
+--> Parameter xsthdpdir set to E:/Repos/csdlabs/hc_l3/xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.21 secs
+Total CPU time to Xst completion: 0.20 secs
  
---> Reading design: lab_board.prj
+--> Reading design: prog_count_7.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,24 +39,18 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "E:\Repos\csdlabs\counter.v" into library work
+Analyzing Verilog file "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\counter.v" into library work
 Parsing module <count_7>.
-Analyzing Verilog file "E:\Repos\csdlabs\prog_counter.v" into library work
+Analyzing Verilog file "E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\prog_counter.v" into library work
 Parsing module <prog_count_7>.
-Analyzing Verilog file "E:\Repos\csdlabs\binary_bcd.v" into library work
-Parsing module <binary_bcd_2>.
-Analyzing Verilog file "E:\Repos\csdlabs\final_bcd_counter.v" into library work
-Parsing module <bcd_count_7>.
-Analyzing Verilog file "E:\Repos\csdlabs\lab_board.v" into library work
-Parsing module <lab_board>.
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.76 secs
+Total CPU time to Xst completion: 4.75 secs
  
 --> 
 
-Total memory usage is 224740 kilobytes
+Total memory usage is 225188 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

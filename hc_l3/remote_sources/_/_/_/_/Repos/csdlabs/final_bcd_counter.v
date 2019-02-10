@@ -13,7 +13,8 @@ module bcd_count_7(max_count, CLK, run, digit_1, digit_2);
 
   // TODO: Wires and registers for interconnect if needed
   wire [6:0] count_out_to_bcd;
-  
+  //wire [3:0] digit_1;
+  //wire [3:0] digit_2; 
 
   // Programmable 7-bit counter module
   prog_count_7 counter(.max_count(max_count), 

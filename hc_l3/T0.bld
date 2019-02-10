@@ -5,10 +5,8 @@ Command Line: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
 ise -dd _ngo -nt timestamp -uc constraintsLAB3.ucf -p xc6slx45-csg484-3 T0.ngc
 T0.ngd
 
-Reading NGO file "E:/Google Drive/USF Spring 2019/Computer System Design
-Lab/gitLAB3/T0.ngc" ...
-Loading design module "E:\Google Drive\USF Spring 2019\Computer System Design
-Lab\gitLAB3/T0.ngc"...
+Reading NGO file "E:/Repos/csdlabs/hc_l3/T0.ngc" ...
+Loading design module "E:\Repos\csdlabs\hc_l3/T0.ngc"...
 WARNING:NgdBuild:578 - Design contains no instances.
 Gathering constraint information from source properties...
 Done.
@@ -222,10 +220,10 @@ NGDBUILD Design Results Summary:
   Number of errors:    22
   Number of warnings:  22
 
-Total memory usage is 157896 kilobytes
+Total memory usage is 157576 kilobytes
 
-Total REAL time to NGDBUILD completion:  4 sec
-Total CPU time to NGDBUILD completion:   4 sec
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
 
 One or more errors were found during NGDBUILD.  No NGD file will be written.
 

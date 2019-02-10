@@ -5,5 +5,23 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\lab_board.v" Line 18: Module &lt;<arg fmt="%s" index="1">bcd_count_7</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">digit_l</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\lab_board.v" Line 14: Port <arg fmt="%s" index="1">digit_1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\counter.v" Line 21: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\binary_bcd.v" Line 24: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\lab_board.v" Line 18: Cannot find port <arg fmt="%s" index="1">digit_l</arg> on this module
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"E:\Repos\csdlabs\hc_l3\remote_sources\_\_\_\_\Repos\csdlabs\lab_board.v" Line 3: Empty module &lt;<arg fmt="%s" index="1">lab_board</arg>&gt; remains a black box.
+</msg>
+
 </messages>
 

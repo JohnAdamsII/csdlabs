@@ -16,7 +16,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;CLK&quot;	LOC=D11;&gt; [constraintsLAB3.ucf(7)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[0]&quot;	LOC= V5;&gt; [constraintsLAB3.ucf(12)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[0]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[0]&quot;	LOC= V5;&gt; [constraintsLAB3.ucf(12)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[0]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -24,7 +24,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW[0]&quot;	LOC= V5;&gt; [constraintsLAB3.ucf(12)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[1]&quot;	LOC= U4;&gt; [constraintsLAB3.ucf(13)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[1]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[1]&quot;	LOC= U4;&gt; [constraintsLAB3.ucf(13)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[1]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -32,7 +32,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW[1]&quot;	LOC= U4;&gt; [constraintsLAB3.ucf(13)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[2]&quot;	LOC= V3;&gt; [constraintsLAB3.ucf(14)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[2]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[2]&quot;	LOC= V3;&gt; [constraintsLAB3.ucf(14)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[2]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -40,7 +40,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW[2]&quot;	LOC= V3;&gt; [constraintsLAB3.ucf(14)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[3]&quot;	LOC= P4;&gt; [constraintsLAB3.ucf(15)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[3]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[3]&quot;	LOC= P4;&gt; [constraintsLAB3.ucf(15)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[3]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -48,7 +48,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW[3]&quot;	LOC= P4;&gt; [constraintsLAB3.ucf(15)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[4]&quot;	LOC= R4;&gt; [constraintsLAB3.ucf(16)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[4]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[4]&quot;	LOC= R4;&gt; [constraintsLAB3.ucf(16)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[4]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -56,7 +56,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW[4]&quot;	LOC= R4;&gt; [constraintsLAB3.ucf(16)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[5]&quot;	LOC= P6;&gt; [constraintsLAB3.ucf(17)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[5]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[5]&quot;	LOC= P6;&gt; [constraintsLAB3.ucf(17)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[5]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -64,7 +64,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW[5]&quot;	LOC= P6;&gt; [constraintsLAB3.ucf(17)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[6]&quot;	LOC= P5;&gt; [constraintsLAB3.ucf(18)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[6]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[6]&quot;	LOC= P5;&gt; [constraintsLAB3.ucf(18)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[6]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -72,7 +72,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW[6]&quot;	LOC= P5;&gt; [constraintsLAB3.ucf(18)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[7]&quot;	LOC= P8;&gt; [constraintsLAB3.ucf(19)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[7]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;SW[7]&quot;	LOC= P8;&gt; [constraintsLAB3.ucf(19)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SW[7]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -80,7 +80,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW[7]&quot;	LOC= P8;&gt; [constraintsLAB3.ucf(19)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[0]&quot;	LOC=W3;&gt; [constraintsLAB3.ucf(22)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[0]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[0]&quot;	LOC=W3;&gt; [constraintsLAB3.ucf(22)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[0]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -88,7 +88,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;LED[0]&quot;	LOC=W3;&gt; [constraintsLAB3.ucf(22)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[1]&quot;	LOC=Y4;&gt; [constraintsLAB3.ucf(23)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[1]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[1]&quot;	LOC=Y4;&gt; [constraintsLAB3.ucf(23)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[1]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -96,7 +96,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;LED[1]&quot;	LOC=Y4;&gt; [constraintsLAB3.ucf(23)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[2]&quot;	LOC=Y1;&gt; [constraintsLAB3.ucf(24)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[2]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[2]&quot;	LOC=Y1;&gt; [constraintsLAB3.ucf(24)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[2]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -104,7 +104,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;LED[2]&quot;	LOC=Y1;&gt; [constraintsLAB3.ucf(24)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[3]&quot;	LOC=Y3;&gt; [constraintsLAB3.ucf(25)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[3]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[3]&quot;	LOC=Y3;&gt; [constraintsLAB3.ucf(25)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[3]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -112,7 +112,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;LED[3]&quot;	LOC=Y3;&gt; [constraintsLAB3.ucf(25)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[4]&quot;	LOC=AB4;&gt; [constraintsLAB3.ucf(26)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[4]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[4]&quot;	LOC=AB4;&gt; [constraintsLAB3.ucf(26)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[4]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -120,7 +120,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;LED[4]&quot;	LOC=AB4;&gt; [constraintsLAB3.ucf(26)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[5]&quot;	LOC=W1;&gt; [constraintsLAB3.ucf(27)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[5]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[5]&quot;	LOC=W1;&gt; [constraintsLAB3.ucf(27)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[5]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -128,7 +128,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;LED[5]&quot;	LOC=W1;&gt; [constraintsLAB3.ucf(27)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[6]&quot;	LOC=AB3;&gt; [constraintsLAB3.ucf(28)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[6]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[6]&quot;	LOC=AB3;&gt; [constraintsLAB3.ucf(28)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[6]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -136,7 +136,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;LED[6]&quot;	LOC=AB3;&gt; [constraintsLAB3.ucf(28)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[7]&quot;	LOC=AA4;&gt; [constraintsLAB3.ucf(29)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[7]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LED[7]&quot;	LOC=AA4;&gt; [constraintsLAB3.ucf(29)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LED[7]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -144,7 +144,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;LED[7]&quot;	LOC=AA4;&gt; [constraintsLAB3.ucf(29)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;BTN[0]&quot;	LOC = E6	;&gt; [constraintsLAB3.ucf(41)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BTN[0]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;BTN[0]&quot;	LOC = E6	;&gt; [constraintsLAB3.ucf(41)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BTN[0]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -152,7 +152,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;BTN[0]&quot;	LOC = E6	;&gt; [constraintsLAB3.ucf(41)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;BTN[1]&quot;	LOC = D5	;&gt; [constraintsLAB3.ucf(42)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BTN[1]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;BTN[1]&quot;	LOC = D5	;&gt; [constraintsLAB3.ucf(42)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BTN[1]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -160,7 +160,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;BTN[1]&quot;	LOC = D5	;&gt; [constraintsLAB3.ucf(42)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;BTN[2]&quot;	LOC = A3	;&gt; [constraintsLAB3.ucf(43)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BTN[2]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;BTN[2]&quot;	LOC = A3	;&gt; [constraintsLAB3.ucf(43)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BTN[2]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>
@@ -168,7 +168,7 @@
 <msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;BTN[2]&quot;	LOC = A3	;&gt; [constraintsLAB3.ucf(43)]&apos; could not be found and so the Locate constraint will be removed.
 </msg>
 
-<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;BTN[3]&quot;	LOC = AB9;&gt; [constraintsLAB3.ucf(44)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BTN[3]</arg>&quot; not found.  Please verify that:
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;BTN[3]&quot;	LOC = AB9;&gt; [constraintsLAB3.ucf(44)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BTN[3]</arg>&quot; not found.  Please verify that:
 1. The specified design element actually exists in the original design.
 2. The specified object is spelled correctly in the constraint source file.
 </msg>

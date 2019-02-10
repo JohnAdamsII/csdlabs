@@ -6,3 +6,5 @@ xst -intstyle ise -ifn "E:/Google Drive/USF Spring 2019/Computer System Design L
 ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLAB3.ucf -p xc6slx45-csg484-3 "T0.ngc" T0.ngd  
 xst -intstyle ise -ifn "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/T0.xst" -ofn "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/T0.syr" 
 ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLAB3.ucf -p xc6slx45-csg484-3 "T0.ngc" T0.ngd  
+xst -intstyle ise -ifn "E:/Repos/csdlabs/hc_l3/T0.xst" -ofn "E:/Repos/csdlabs/hc_l3/T0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLAB3.ucf -p xc6slx45-csg484-3 T0.ngc T0.ngd  
