@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/T0.xst" -ofn "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/T0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "E:/Google Drive/USF Spring 2019/Computer System Design Lab/LAB3/Anvyl_Master_UCF.ucf" -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "T0.ngc" T0.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "E:/Google Drive/USF Spring 2019/Computer System Design Lab/LAB3/Anvyl_Master_UCF.ucf" -p xc6slx45-csg484-3 "T0.ngc" T0.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 "T0.ngc" T0.ngd  
+xst -intstyle ise -ifn "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/T0.xst" -ofn "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/T0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLAB3.ucf -p xc6slx45-csg484-3 "T0.ngc" T0.ngd  
+xst -intstyle ise -ifn "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/T0.xst" -ofn "E:/Google Drive/USF Spring 2019/Computer System Design Lab/gitLAB3/T0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLAB3.ucf -p xc6slx45-csg484-3 "T0.ngc" T0.ngd  
