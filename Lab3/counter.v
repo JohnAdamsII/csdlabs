@@ -20,6 +20,9 @@ else if (run && reset)
  begin // Run Condition
 	count_out = count_out+ 1; 
  end
+ 	else begin
+	count_out = count_out; 
+     end 
 end
   
 endmodule 

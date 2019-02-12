@@ -34,19 +34,17 @@ end
 			begin
 			enable = 1;
 			end
-			
-			if (counter_output >= 100) 
-				begin 
+											
+			if(counter_output == max_count || counter_output >= 100)
+			begin
 				enable = 0;	
-				end     
+			end
 		
-			else if (counter_output <= max_count)
+			else if(counter_output <= max_count)
 				begin 
 				count_out = counter_output;
-				
-				if(counter_output == max_count)
-					enable = 0;	 
-	end
+				end
+ 
 end
    
 endmodule 
