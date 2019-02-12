@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/My Drive/Classes/CSD_Lab/Labs/Lab3/T0_isim_beh.exe" -prj "G:/My Drive/Classes/CSD_Lab/Labs/Lab3/T0_beh.prj" "work.T0" "work.glbl" 

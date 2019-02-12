@@ -10,7 +10,7 @@
 /*  \___\/\___\                                                    */
 /***********************************************************************/
 
-/* This file is designed for use with ISim build 0x8ef4fb42 */
+/* This file is designed for use with ISim build 0x7708f090 */
 
 #define XSI_HIDE_SYMBOL_SPEC true
 #include "xsi.h"
@@ -21,7 +21,11 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
+<<<<<<< HEAD
 static const char *ng0 = "G:/My Drive/Classes/CSD_Lab/csdlabs/Lab3/prog_counter.v";
+=======
+static const char *ng0 = "D:/Google Drive/Repos/csdlabs/Lab3/prog_counter.v";
+>>>>>>> JohnL3
 static int ng1[] = {1, 0};
 static int ng2[] = {100, 0};
 static int ng3[] = {0, 0};
@@ -37,7 +41,7 @@ LAB0:    xsi_set_current_line(27, ng0);
 
 LAB2:    xsi_set_current_line(28, ng0);
     t1 = ((char*)((ng1)));
-    t2 = (t0 + 1196);
+    t2 = (t0 + 2088);
     xsi_vlogvar_assign_value(t2, t1, 0, 0, 1);
 
 LAB1:    return;
@@ -66,7 +70,7 @@ static void Always_31_1(char *t0)
     char *t19;
     char *t20;
 
-LAB0:    t1 = (t0 + 1864U);
+LAB0:    t1 = (t0 + 3256U);
     t2 = *((char **)t1);
     if (t2 == 0)
         goto LAB2;
@@ -74,9 +78,9 @@ LAB0:    t1 = (t0 + 1864U);
 LAB3:    goto *t2;
 
 LAB2:    xsi_set_current_line(31, ng0);
-    t2 = (t0 + 2060);
+    t2 = (t0 + 3576);
     *((int *)t2) = 1;
-    t3 = (t0 + 1892);
+    t3 = (t0 + 3288);
     *((char **)t3) = t2;
     *((char **)t1) = &&LAB4;
 
@@ -84,7 +88,7 @@ LAB1:    return;
 LAB4:    xsi_set_current_line(32, ng0);
 
 LAB5:    xsi_set_current_line(33, ng0);
-    t5 = (t0 + 692U);
+    t5 = (t0 + 1208U);
     t6 = *((char **)t5);
     memset(t4, 0, 8);
     t5 = (t6 + 4);
@@ -113,8 +117,13 @@ LAB9:    t13 = (t4 + 4);
         goto LAB10;
 
 LAB11:
+<<<<<<< HEAD
 LAB12:    xsi_set_current_line(40, ng0);
     t2 = (t0 + 876U);
+=======
+LAB12:    xsi_set_current_line(38, ng0);
+    t2 = (t0 + 1528U);
+>>>>>>> JohnL3
     t3 = *((char **)t2);
     t2 = ((char*)((ng2)));
     memset(t4, 0, 8);
@@ -140,10 +149,15 @@ LAB17:    t13 = (t4 + 4);
     if (t11 > 0)
         goto LAB19;
 
+<<<<<<< HEAD
 LAB20:    xsi_set_current_line(45, ng0);
     t2 = (t0 + 876U);
+=======
+LAB20:    xsi_set_current_line(43, ng0);
+    t2 = (t0 + 1528U);
+>>>>>>> JohnL3
     t3 = *((char **)t2);
-    t2 = (t0 + 600U);
+    t2 = (t0 + 1048U);
     t5 = *((char **)t2);
     memset(t4, 0, 8);
     t2 = (t3 + 4);
@@ -179,7 +193,7 @@ LAB10:    xsi_set_current_line(34, ng0);
 
 LAB13:    xsi_set_current_line(35, ng0);
     t19 = ((char*)((ng1)));
-    t20 = (t0 + 1196);
+    t20 = (t0 + 2088);
     xsi_vlogvar_assign_value(t20, t19, 0, 0, 1);
     goto LAB12;
 
@@ -192,7 +206,7 @@ LAB19:    xsi_set_current_line(41, ng0);
 
 LAB22:    xsi_set_current_line(42, ng0);
     t19 = ((char*)((ng3)));
-    t20 = (t0 + 1196);
+    t20 = (t0 + 2088);
     xsi_vlogvar_assign_value(t20, t19, 0, 0, 1);
     goto LAB21;
 
@@ -203,12 +217,70 @@ LAB24:    t12 = (t4 + 4);
 
 LAB28:    xsi_set_current_line(46, ng0);
 
+<<<<<<< HEAD
 LAB31:    xsi_set_current_line(47, ng0);
     t19 = (t0 + 876U);
+=======
+LAB31:    xsi_set_current_line(45, ng0);
+    t19 = (t0 + 1528U);
+>>>>>>> JohnL3
     t20 = *((char **)t19);
-    t19 = (t0 + 1104);
+    t19 = (t0 + 1928);
     xsi_vlogvar_assign_value(t19, t20, 0, 0, 7);
+<<<<<<< HEAD
     goto LAB30;
+=======
+    xsi_set_current_line(47, ng0);
+    t2 = (t0 + 1528U);
+    t3 = *((char **)t2);
+    t2 = (t0 + 1048U);
+    t5 = *((char **)t2);
+    memset(t4, 0, 8);
+    t2 = (t3 + 4);
+    t6 = (t5 + 4);
+    t7 = *((unsigned int *)t3);
+    t8 = *((unsigned int *)t5);
+    t9 = (t7 ^ t8);
+    t10 = *((unsigned int *)t2);
+    t11 = *((unsigned int *)t6);
+    t14 = (t10 ^ t11);
+    t15 = (t9 | t14);
+    t16 = *((unsigned int *)t2);
+    t17 = *((unsigned int *)t6);
+    t18 = (t16 | t17);
+    t21 = (~(t18));
+    t22 = (t15 & t21);
+    if (t22 != 0)
+        goto LAB35;
+
+LAB32:    if (t18 != 0)
+        goto LAB34;
+
+LAB33:    *((unsigned int *)t4) = 1;
+
+LAB35:    t13 = (t4 + 4);
+    t23 = *((unsigned int *)t13);
+    t24 = (~(t23));
+    t25 = *((unsigned int *)t4);
+    t26 = (t25 & t24);
+    t27 = (t26 != 0);
+    if (t27 > 0)
+        goto LAB36;
+
+LAB37:
+LAB38:    goto LAB30;
+
+LAB34:    t12 = (t4 + 4);
+    *((unsigned int *)t4) = 1;
+    *((unsigned int *)t12) = 1;
+    goto LAB35;
+
+LAB36:    xsi_set_current_line(48, ng0);
+    t19 = ((char*)((ng3)));
+    t20 = (t0 + 2088);
+    xsi_vlogvar_assign_value(t20, t19, 0, 0, 1);
+    goto LAB38;
+>>>>>>> JohnL3
 
 }
 

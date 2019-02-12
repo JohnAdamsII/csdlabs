@@ -34,16 +34,28 @@ end
 			begin
 			enable = 1;
 			end
+<<<<<<< HEAD
 				
 			if (counter_output >= 100) 
 				begin 
+=======
+											
+			if(counter_output == max_count || counter_output >= 100)
+			begin
+>>>>>>> JohnL3
 				enable = 0;	
-				end     
+			end
 		
-			else if (counter_output <= max_count)
+			else if(counter_output <= max_count)
 				begin 
+<<<<<<< HEAD
 				count_out = counter_output; 
 	end
+=======
+				count_out = counter_output;
+				end
+ 
+>>>>>>> JohnL3
 end
    
 endmodule 
