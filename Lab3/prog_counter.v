@@ -34,7 +34,7 @@ end
 			begin
 			enable = 1;
 			end
-			
+				
 			if (counter_output >= 100) 
 				begin 
 				enable = 0;	
@@ -42,10 +42,7 @@ end
 		
 			else if (counter_output <= max_count)
 				begin 
-				count_out = counter_output;
-				
-				if(counter_output == max_count)
-					enable = 0;	 
+				count_out = counter_output; 
 	end
 end
    

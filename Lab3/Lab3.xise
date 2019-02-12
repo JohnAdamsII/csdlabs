@@ -41,11 +41,11 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="23"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="23"/>
     </file>
-    <file xil_pn:name="T0.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="bcd_count_7_testbench.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
-      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="37"/>
-      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="37"/>
-      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="37"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="36"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="36"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="36"/>
     </file>
   </files>
 

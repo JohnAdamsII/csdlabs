@@ -62,7 +62,7 @@ module T0;
 		max_count = 0;
 		#100;
 		// Set MAX to 73 while run=0
-		max_count = 73;
+		max_count = 50;
 		#10;
 		// Wait, then set run to 1
 		run = 1;
@@ -71,11 +71,11 @@ module T0;
 		#850;
 		// At this time, the output should be 73. Reset it to zero and give it the new max by setting run to 0
 		
-		run = 0;
-		#10
+		//run = 0;
+		//#10
 		run = 1;
 		
-		max_count = 15;
+		max_count = 55;
 		#150
 		// Count up to 15 by setting run to 1
 		run = 0;
