@@ -1,0 +1,4 @@
+verilog work "counter.v"
+verilog work "prog_counter.v"
+verilog work "binary_bcd.v"
+verilog work "final_bcd_counter.v"
