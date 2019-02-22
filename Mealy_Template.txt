@@ -1,7 +1,7 @@
 //Mealy Template:
 
-parameter <state1> = 2'bOO;
-parameter <3tate2> = 2'bOl;
+parameter <state1> = 2'b00;
+parameter <3tate2> = 2'b01;
 parameter <state3> = 2'b10;
 parameter <state4> = 2'b11;
 
