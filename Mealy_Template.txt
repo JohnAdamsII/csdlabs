@@ -1,0 +1,52 @@
+//Mealy Template:
+
+parameter <state1> = 2'bOO;
+parameter <3tate2> = 2'bOl;
+parameter <state3> = 2'b10;
+parameter <state4> = 2'b11;
+
+
+(* F5M_ENCODING="SEQUNTIAL", SAFE_IMPLEMENTATION="NO" *) reg [1:0] state = <statel>;
+always@(posedge <clock>)
+	if (<reset>) begin
+		state <= <statel>;
+	end
+	else
+		(* FULL_CASE, PARALLEL_CASE *) case (state)
+		   <statel> : begin
+			if (<condition>)
+				state <= <next_state>;
+			else if (<condition>)
+				state <= <next_state>;
+			else
+				state <= <next_state>;
+		    end
+		   <state2> : begin
+			if (<condition>)
+				state <= <next_state>;
+			else if (<condition>)
+				state <= <next_state>;
+			else
+				state <= <next_state>;
+		    end
+		  <state3> : begin
+			if (<condition>)
+				state <= <next_state>;
+			else if (<condition>)
+				state <= <next_state>;
+			else
+				state <= <next_state>;
+		   end
+		  <state4> : begin
+			if (<condition>)
+				state <= <next_state>;
+			else if (<condition>)
+				state <= <next_state>;
+			else
+				state <= <next_state>;
+		   end
+		endcase
+
+assign <outputl> = <logic_equation_based_on_states_and;inputs>;
+assign <output2> = <logic_equation_based_on_states_and;inputs>;
+// Add other output equations as necessary
