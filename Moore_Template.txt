@@ -1,0 +1,56 @@
+//Moore Template:
+parameter <statel> = 2'b00;
+parameter <state2> = 2'b01;
+parameter <state3> = 2'b10;
+parameter <state4> = 2'b11;
+
+(* FSM_ENCCDING="SEQUENTIAL", SAFE_IMPLEMENTATION="NO" *) reg [1:0] state = <statel>;
+
+always@ (posedge <clock>)
+	if (<reset>) begin
+		state <= <state1>;
+		<outputs> <= <initial_values>;
+	 end
+
+	else
+	   (* FULL_CASE, PARALLEL_CASE *) case (state)
+		<state1> : begin
+		   if (<condition>)
+			state <= <next_state>;
+		   else if (<condition>)
+			state <= <next_state>;
+		   else
+			state <= <next_state>;
+		     <outputs> <= <values>;
+		 end
+
+		<state2> : begin
+		   if (<condition>)
+			state <= <next_state>;
+		   else if (<condition>)
+			state <= <next_state>;
+		   else
+			state <= <next_state>;
+		     <outputs> <= <values>;
+		 end
+
+		<state3> : begin
+		   if (<condition>)
+			state <= <next_state>;
+		   else if (<condition>)
+			state <= <next_state>;
+		   else
+			state <= <next_state>;
+		     <outputs> <= <values>;
+		 end
+
+		<state4> : begin
+		   if (<condition>)
+			state <= <next_state>;
+		   else if (<condition>)
+			state <= <next_state>;
+		   else
+			state <= <next_state>;
+		     <outputs> <= <values>;
+		 end
+		endcase
