@@ -29,14 +29,16 @@ input clk, reset, N_in,D_in,Q_in, soda_in, diet_in;
 output reg GiveDiet, GiveSoda, N_out, D_out, Q_out; 
 
 
-parameter S0 = 2'b00;
-parameter S1 = 2'b01;
-parameter S2 = 2'b10;
-parameter S3 = 2'b11;
+parameter S0 = 3'b000;
+parameter S1 = 3'b001;
+parameter S2 = 3'b010;
+parameter S3 = 3'b011;
+parameter S4 = 3'b100;
+parameter S5 = 3'b101;
 
 
 (* F5M_ENCODING="SEQUNTIAL", SAFE_IMPLEMENTATION="NO" *)
- reg [1:0] state = S0;
+reg [2:0] state = S0;
  
  
 always@(posedge clk )
@@ -57,22 +59,105 @@ always@(posedge clk )
 			Q_out = 0; 
 			
 			if (N_in) 
+			begin
 				state <= S1;
+				 N_out = 1;
+			end
+			
+			else if (D_in) 
+				begin
+					state <= S2;
+					D_out = 1;
+				end
 				
-			else if (!N_in)
-				state <= S0;
 			else
 				state <= S0;
 		    end
 			 
 		   S1 : begin
 			
-		 N_out = 1;
-		 GiveSoda = 1;
-		 state <= S0;
-		 
-		    end
+			N_out = 0;
 			
+			if (N_in) 
+				begin
+					state <= S2;
+					N_out = 1;
+				end
+				
+			else if (D_in) 
+				begin
+					state <= S3;
+					D_out = 1;
+				end
+				
+			else
+				state <= S1;
+		    end
+			 
+			S2 : begin
+			
+			N_out = 0;
+			D_out = 0;
+			
+			if (N_in) 
+				begin
+					state <= S3;
+					N_out = 1;
+				end
+				
+			else if (D_in) 
+				begin
+					state <= S4;
+					D_out = 1;
+				end
+				
+			else
+			
+			state <= S2;
+			
+			end
+			
+			S3 : begin
+			
+			N_out = 0;
+			D_out = 0;
+			
+			if (N_in) 
+				begin
+					state <= S4;
+					N_out = 1;
+				end
+				
+			else if (D_in) 
+				begin
+					state <= S5;
+					D_out = 1;
+				end
+				
+			else
+			
+			state <= S3;
+			
+			end
+			
+			
+			S4 : begin
+			
+			N_out = 0;
+			D_out = 0;
+			
+			if(diet_in)
+			GiveDiet = 1;
+			
+			else
+			GiveSoda = 1;
+			
+			state <= S0;
+			
+			end
+			
+			
+		  	
 		endcase
 
 //assign <outputl> = <logic_equation_based_on_states_and;inputs>;

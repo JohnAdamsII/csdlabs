@@ -84,6 +84,51 @@ module T1;
         
 		// Add stimulus here
 		N_in = 1;
+		diet_in = 1;
+		
+		
+		#15
+		
+		N_in = 0;
+		
+		#15
+		
+		D_in = 1;
+		
+		#15
+		
+		N_in = 0;
+		D_in = 0;
+		
+		#15
+		
+		N_in = 1;
+		
+		#15
+		
+		N_in = 0;
+		D_in = 0;
+		
+		
+		#100
+		
+		
+		
+		D_in = 1;
+		
+		#15
+		
+		D_in = 0;
+		
+		#15
+		
+		D_in = 1;
+		
+		#15
+		
+		D_in = 0;
+		
+		
 
 	end
       
