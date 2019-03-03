@@ -1,0 +1,29 @@
+Command line:
+   FSM_VendingMachine_TestBench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57301
+
+Sat Mar 02 21:01:16 2019
+
+
+ Elaboration Time: 0.484375 sec
+
+ Current Memory Usage: 5514.44 Meg
+
+ Total Signals          : 25
+ Total Nets             : 25
+ Total Signal Drivers   : 17
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 21
+ Total Traceable Variables  : 41
+ Total Scalar Nets and Variables : 161
+Total Line Count : 273
+
+ Total Simulation Time: 0.53125 sec
+
+ Current Memory Usage: 5514.4 Meg
+
+Sat Mar 02 21:03:04 2019
+

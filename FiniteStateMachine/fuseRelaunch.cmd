@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/Xilinx/Working/FiniteStateMachine/FSM_VendingMachine_TestBench_isim_beh.exe" -prj "F:/Xilinx/Working/FiniteStateMachine/FSM_VendingMachine_TestBench_beh.prj" "work.FSM_VendingMachine_TestBench" "work.glbl" 
