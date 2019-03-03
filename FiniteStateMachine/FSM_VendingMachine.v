@@ -19,11 +19,11 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module FSM_VendingMachine(
-N_in,D_in,Q_in,diet_in,soda_in,GiveDiet,GiveSoda,clk,reset,N_out, D_out, Q_out);
+N_in,D_in,Q_in,SodaDiet_Sel,GiveDiet,GiveSoda,clk,reset,N_out, D_out, Q_out);
 //Mealy Template:
 
 // inputs
-input clk, reset, N_in,D_in,Q_in, soda_in, diet_in;
+input clk, reset, N_in,D_in,Q_in, SodaDiet_Sel;
 
 //outputs
 output reg GiveDiet, GiveSoda, N_out, D_out, Q_out; 
@@ -333,19 +333,15 @@ always@(posedge clk )
 			D_out = 0;
 			Q_out = 0;
 			
-			if(diet_in)
-			GiveDiet = 1;
+			if(SodaDiet_Sel)
+			GiveSoda = 1;
 			
 			else
-			GiveSoda = 1;
+			GiveDiet = 1;
 			
 			state <= S0;
 			end
 
 		endcase
-
-//assign <outputl> = <logic_equation_based_on_states_and;inputs>;
-//assign <output2> = <logic_equation_based_on_states_and;inputs>;
-// Add other output equations as necessary
 
 endmodule 

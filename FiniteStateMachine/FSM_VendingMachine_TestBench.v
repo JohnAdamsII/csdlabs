@@ -28,8 +28,7 @@ module FSM_VendingMachine_TestBench;
 	reg N_in;
 	reg D_in;
 	reg Q_in;
-	reg diet_in;
-	reg soda_in;
+	reg SodaDiet_Sel;
 	reg clk;
 	reg reset;
 
@@ -45,8 +44,7 @@ module FSM_VendingMachine_TestBench;
 		.N_in(N_in), 
 		.D_in(D_in), 
 		.Q_in(Q_in), 
-		.diet_in(diet_in), 
-		.soda_in(soda_in), 
+		.SodaDiet_Sel(SodaDiet_Sel), 
 		.GiveDiet(GiveDiet), 
 		.GiveSoda(GiveSoda), 
 		.clk(clk), 
@@ -68,14 +66,13 @@ module FSM_VendingMachine_TestBench;
 		N_in = 0;
 		D_in = 0;
 		Q_in = 0;
-		diet_in = 0;
-		soda_in = 0;
+		SodaDiet_Sel = 0;
 		clk = 0;
 		reset = 0;
 
 		// Wait 100 ns for global reset to finish
 		#20;
-		diet_in = 1;
+		SodaDiet_Sel = 1;
 		// Add stimulus here
 		
 		// N D N D N D Test Case
@@ -126,7 +123,7 @@ module FSM_VendingMachine_TestBench;
 		D_in = 0;
 		
 		// N D D D D test case
-		#45	
+		#55	
 		
 		N_in = 1;
 		
@@ -167,7 +164,7 @@ module FSM_VendingMachine_TestBench;
 		D_in = 0;
 		
 		// D Q D Test Case
-		#45
+		#55
 		
 		D_in = 1;
 		
@@ -192,8 +189,8 @@ module FSM_VendingMachine_TestBench;
 		D_in = 0;
 
 		// N Q D N Test Case
-		
-		#45
+		#55
+		SodaDiet_Sel = 0;
 		
 		N_in = 1;
 		
@@ -228,7 +225,7 @@ module FSM_VendingMachine_TestBench;
 		
 		// Q Q Test Case
 		
-		#45
+		#55
 		
 		Q_in = 1;
 		
