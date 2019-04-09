@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LoopbackSystem.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LB_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LB_testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LB_testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1554853213" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1554853213">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1554853213" xil_pn:in_ck="-5516120967780565264" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1554853213">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LB_testbench.v"/>
+      <outfile xil_pn:name="kcpsm6.v"/>
+      <outfile xil_pn:name="led_driver.v"/>
+      <outfile xil_pn:name="loopback.v"/>
+      <outfile xil_pn:name="picoblaze.v"/>
+      <outfile xil_pn:name="program.v"/>
+      <outfile xil_pn:name="rs232_uart.v"/>
+      <outfile xil_pn:name="uart_rx6.v"/>
+      <outfile xil_pn:name="uart_tx6.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1554853213" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2143133296266137668" xil_pn:start_ts="1554853213">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1554853213" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8317698226115612670" xil_pn:start_ts="1554853213">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1554853213" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="992944183669088369" xil_pn:start_ts="1554853213">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1554853213" xil_pn:in_ck="-5516120967780565264" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1554853213">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LB_testbench.v"/>
+      <outfile xil_pn:name="kcpsm6.v"/>
+      <outfile xil_pn:name="led_driver.v"/>
+      <outfile xil_pn:name="loopback.v"/>
+      <outfile xil_pn:name="picoblaze.v"/>
+      <outfile xil_pn:name="program.v"/>
+      <outfile xil_pn:name="rs232_uart.v"/>
+      <outfile xil_pn:name="uart_rx6.v"/>
+      <outfile xil_pn:name="uart_tx6.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1554853216" xil_pn:in_ck="-5516120967780565264" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-722624851050394073" xil_pn:start_ts="1554853213">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1554852415" xil_pn:in_ck="-6931470290301978212" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6913223154815489994" xil_pn:start_ts="1554852415">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <outfile xil_pn:name="LB_testbench_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+  </transforms>
+
+</generated_project>

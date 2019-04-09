@@ -1,0 +1,16 @@
+Running: F:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/LB_testbench_isim_beh.exe -prj F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/LB_testbench_beh.prj work.LB_testbench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/uart_tx6.v" into library work
+Analyzing Verilog file "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/uart_rx6.v" into library work
+Analyzing Verilog file "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/program.v" into library work
+Analyzing Verilog file "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/kcpsm6.v" into library work
+Analyzing Verilog file "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/rs232_uart.v" into library work
+Analyzing Verilog file "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/picoblaze.v" into library work
+Analyzing Verilog file "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/led_driver.v" into library work
+Analyzing Verilog file "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/loopback.v" into library work
+ERROR:HDLCompiler:69 - "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/loopback.v" Line 153: <uart_data_rx> is not declared.
+ERROR:HDLCompiler:598 - "F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/loopback.v" Line 22: Module <loopback> ignored due to previous errors.
+Verilog file F:/MyStuff/Documents/GitHub/csdlabs/LoopbackSystem/loopback.v ignored due to errors
