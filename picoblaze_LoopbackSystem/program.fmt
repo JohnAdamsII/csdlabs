@@ -222,20 +222,20 @@ cold_start: LOAD s0, s0                 ; (nop)
             ; Code 2
             ; Write code to read the switch state and
             ; write it, inverted, to the LED output port.
-            ;input s0, switches
-            ;nor s0, FF
-            ;output s0, leds
-            ;jump rs232_echo
+            INPUT s0, switches
+            XOR s0, FF
+            OUTPUT s0, leds
+            JUMP rs232_echo
 rs232_echo: LOAD s0, s0                 ; (nop)
             ; Code 3
             ; Write code to check if a byte has been
             ; received by the uart.  If so, write it
             ; back to the uart transmit port.  Then...
-            ;xor s1, s1
-            ;xor s2, s2
-            ;input s1, uart_data_rx
-            ;input s2, data_present
-            ;compare s2, 01
+            XOR s1, s1
+            XOR s2, s2
+            INPUT s1, uart_data_rx
+            INPUT s2, data_present
+            COMPARE s2, 01
             ;jump z, send_back
             JUMP led_echo               ; endless loop
             ;================================================================

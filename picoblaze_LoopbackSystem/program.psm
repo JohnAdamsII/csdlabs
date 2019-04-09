@@ -243,7 +243,7 @@ led_echo:       LOAD     s0, s0            ; (nop)
                 ; write it, inverted, to the LED output port.
 				
 				;input s0, switches
-				;nor s0, FF
+				;xor s0, FF
 				;output s0, leds
 				;jump rs232_echo
 
