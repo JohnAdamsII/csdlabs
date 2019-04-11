@@ -242,10 +242,10 @@ led_echo:       LOAD     s0, s0            ; (nop)
                 ; Write code to read the switch state and
                 ; write it, inverted, to the LED output port.
 				
-				;input s0, switches
-				;xor s0, FF
-				;output s0, leds
-				;jump rs232_echo
+				input s0, switches
+				xor s0, FF
+				output s0, leds
+				jump rs232_echo
 
 rs232_echo:     LOAD     s0, s0            ; (nop)
 
@@ -254,11 +254,11 @@ rs232_echo:     LOAD     s0, s0            ; (nop)
                 ; received by the uart.  If so, write it
                 ; back to the uart transmit port.  Then...
 				
-				;xor s1, s1
-				;xor s2, s2
-				;input s1, uart_data_rx
-				;input s2, data_present
-				;compare s2, 01
+				xor s1, s1
+				xor s2, s2
+				input s1, uart_data_rx
+				input s2, data_present
+				compare s2, 01
 				;jump z, send_back
 				
                 JUMP     led_echo          ; endless loop
