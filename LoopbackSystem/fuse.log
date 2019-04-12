@@ -1,0 +1,85 @@
+Running: D:\Xilinxx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/LB_testbench_isim_beh.exe -prj C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/LB_testbench_beh.prj work.LB_testbench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/uart_tx6.v" into library work
+Analyzing Verilog file "C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/uart_rx6.v" into library work
+Analyzing Verilog file "C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/program.v" into library work
+Analyzing Verilog file "C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/kcpsm6.v" into library work
+Analyzing Verilog file "C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/rs232_uart.v" into library work
+Analyzing Verilog file "C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/picoblaze.v" into library work
+Analyzing Verilog file "C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/led_driver.v" into library work
+Analyzing Verilog file "C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/loopback.v" into library work
+Analyzing Verilog file "C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/LB_testbench.v" into library work
+Analyzing Verilog file "D:/Xilinxx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1697: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1712: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1716: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1720: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1784: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1799: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1803: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1807: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1852: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1863: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1864: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1865: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1904: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1915: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1916: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1917: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1985: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1986: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2006: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2007: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2012: Element index 23 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2013: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2018: Element index 31 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2019: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2095: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2096: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2116: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2117: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2122: Element index 23 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2123: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2128: Element index 31 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 2129: Element index 3 into memp is out of bounds
+Completed static elaboration
+Compiling module led_driver_wrapper
+Compiling module SRL16E
+Compiling module FD
+Compiling module LUT6(INIT=64'b111111110000000011...
+Compiling module FDR
+Compiling module LUT6_2(INIT=64'b1100110010010000...
+Compiling module uart_tx6
+Compiling module uart_rx6
+Compiling module rs232_uart
+Compiling module XORCY
+Compiling module MUXCY
+Compiling module FDRE
+Compiling module RAM32M
+Compiling module RAM64M
+Compiling module kcpsm6_default
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1524: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1539: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1543: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1547: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1610: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1625: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1629: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB16BWER.v" Line 1633: Element index 3 into memp is out of bounds
+Compiling module RAMB16BWER(DATA_WIDTH_A=9,DATA_W...
+Compiling module RAMB16BWER(DATA_WIDTH_A=9,DATA_W...
+Compiling module RAMB16BWER(DATA_WIDTH_A=9,DATA_W...
+Compiling module program
+Compiling module picoblaze
+Compiling module loopback
+Compiling module LB_testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 79 Verilog Units
+Built simulation executable C:/Users/Mary/Documents/git/csdlabs/LoopbackSystem/LB_testbench_isim_beh.exe
+Fuse Memory Usage: 61832 KB
+Fuse CPU Usage: 1858 ms
